@@ -9,6 +9,6 @@ function takeANumber(katzDeliLine, person) {
 function nowServing() {
   var i = 0; 
   while(i < katzDeliLine.length) {
-    
+    i += 1; 
   }
 }
