@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, person) {
   return "Welcome, " + person + ". You are number " + position + " in line."
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     let current = katzDeliLine[0]; 
     katzDeliLine.shift(); 
