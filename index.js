@@ -11,4 +11,5 @@ function nowServing() {
   while(i < katzDeliLine.length) {
     i += 1; 
   }
+  
 }
