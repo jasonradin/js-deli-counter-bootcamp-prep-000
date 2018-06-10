@@ -1,7 +1,7 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine, person) {
-  katzDeli.push(katzDeliLine, person); 
+function takeANumber(katzDeliLine, name) {
+  katzDeli.push(katzDeliLine, name); 
   var position = katzDeli.length; 
   return position; 
 }
