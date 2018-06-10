@@ -18,6 +18,6 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   var line = []; 
   for (var i = 0; i < katzDeliLine.length; i +=1) {
-    line.push(`${katzDeliLine}`)
+    line.push(" " + i+1 + )
   }
 }
